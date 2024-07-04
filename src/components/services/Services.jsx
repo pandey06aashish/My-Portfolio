@@ -5,7 +5,7 @@ import Services_Data from '../../assets/Services-Data.js'
 import arrow_icon from '../../assets/arrow.svg'
 const Services = () => {
   return (
-    <div className='services'>
+    <div id='services' className='services'>
         <div className="services-title">
             <h1>My Services</h1>
             <img src={cursor} alt=''/>
